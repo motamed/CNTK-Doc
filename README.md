@@ -6,7 +6,8 @@
 * Navigate to `Scripts\install\windows`
 * Run `install.bat`
 <br/>
-<br>
+<br/>
+
 ## Test Installation 
 ---
 
@@ -14,7 +15,7 @@
 * Run `install_data_and_model.py`
 * Then Run `run_fast_rcnn.py`
 <br/>
-<br>
+<br/>
 ## Tagging Custom Dataset
 ---
 ### Installing VOTT
@@ -24,8 +25,8 @@
 ### Tagging images
 
 * Follow the Instruction from https://github.com/CatalystCode/VoTT#tagging-an-image-directory
-<br>
-<br>
+<br/>
+<br/>
 ## Train on Custom Dataset
 ---
 * Store the output folder from the VOTT in `Example\Image\Dataset`
