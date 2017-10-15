@@ -14,21 +14,30 @@
 * Navigate to `Example\Image\Detection\FastRCNN`
 * Run `install_data_and_model.py`
 * Then Run `run_fast_rcnn.py`
+
 <br/>
 <br/>
+
 ## Tagging Custom Dataset
+
 ---
+
 ### Installing VOTT
+
 * Download https://github.com/CatalystCode/VOTT/releases
 * Extract and run the exe file 
 
 ### Tagging images
 
 * Follow the Instruction from https://github.com/CatalystCode/VoTT#tagging-an-image-directory
+
 <br/>
 <br/>
+
 ## Train on Custom Dataset
+
 ---
+
 * Store the output folder from the VOTT in `Example\Image\Dataset`
 * Edit `Examples\Image\Detection\utils\annotations\annotations_helper.py`
 > change the `data_set_path` variable to your VOTT output folder as show below  
