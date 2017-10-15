@@ -103,14 +103,14 @@ __C.roi_max_aspect_ratio = 4.0
 
 ```
 
-* Edit 
+* Edit Examples\Image\Detection\FasterRCNN\FasterRCNN_config.py
 
 * set `__C.RESULTS_NMS_THRESHOLD = 0.0`
 * set `__C.VISUALIZE_RESULTS = TRUE`
 * set `__C.IMAGE_WIDTH = 850`
 * set `__C.IMAGE_HEIGHT = 850`
 
-* Edit the following code in `visualize_detections` function in `plot_helper.py`
+* Edit the following code in `visualize_detections` function in `plot_helper.py` in `Examples\Image\Detection\utils`
 
 * change scale variable to:   `scale = 1080.0 / max(imgWidth, imgHeight)`
 * change rect_scale variable `rect_scale = 1080 / pad_width`
@@ -173,4 +173,4 @@ __C.roi_max_aspect_ratio = 4.0
 
 * After finishing editing the file make sure you activate the cntk environment by  running `cntkpy35.bat` in `cntk\Scripts`
 
-* Then run the `run_faster_rcnn.py` file 
+* Then run the `python run_faster_rcnn.py` file 
